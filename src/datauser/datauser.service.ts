@@ -8,6 +8,7 @@ import { UsersService } from 'src/users/users.service';
 import { CloudinaryService } from 'src/cloudinary/cloudinay.service';
 import { UserImage } from 'src/users/entities/imageuser.entity';
 import { UserPlanTruequemania } from 'src/paypal/entities/userplantruequemania.entity';
+import { Express } from 'express';
 
 @Injectable()
 export class DatauserService {

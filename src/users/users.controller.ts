@@ -27,6 +27,7 @@ import { PasswordDto } from './dto/passwordDto';
 import { isProduction } from 'src/url';
 import { Response as ExpressResponse } from 'express';
 import { FileInterceptor } from '@nestjs/platform-express';
+import { Express } from 'express';
 import { CreateRegisterAdminDto } from './dto/createRegisterAdminDto';
 import { UpdateRegisteruserDto } from './dto/updateRegisterAdminDto';
 import * as crypto from 'crypto';

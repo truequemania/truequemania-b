@@ -5,6 +5,7 @@ import { CreateCategoryDto } from './dto/create-category.dto';
 import { UpdateCategoryDto } from './dto/update-category.dto';
 import { Category } from './entities/category.entity';
 import { CloudinaryService } from 'src/cloudinary/cloudinay.service';
+import { Express } from 'express';
 
 
 @Injectable()

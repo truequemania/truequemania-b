@@ -8,6 +8,7 @@ import {
   UseInterceptors,
 } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
+import { Express } from 'express';
 import { ApiTags } from '@nestjs/swagger';
 import { CloudinaryService } from './cloudinay.service';
 

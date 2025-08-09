@@ -5,6 +5,7 @@ import { UpdateDatauserDto } from './dto/update-datauser.dto';
 import { ApiTags } from '@nestjs/swagger';
 import { AuthGuard } from 'src/users/guard/auth.guard';
 import { FileInterceptor } from '@nestjs/platform-express';
+import { Express } from 'express';
 
 @ApiTags('DataUser')
 @Controller('datauser')

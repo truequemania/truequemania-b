@@ -9,6 +9,7 @@ import { LoginDto } from './dto/loginDto';
 import * as crypto from 'crypto';
 import { CreateRegisterAdminDto } from './dto/createRegisterAdminDto';
 import { CloudinaryService } from 'src/cloudinary/cloudinay.service';
+import { Express } from 'express';
 import { UserImage } from './entities/imageuser.entity';
 import { UpdateRegisteruserDto } from './dto/updateRegisterAdminDto';
 import { PasswordDto } from './dto/passwordDto';

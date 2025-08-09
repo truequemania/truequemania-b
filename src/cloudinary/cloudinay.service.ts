@@ -1,5 +1,6 @@
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { v2 as cloudinary } from 'cloudinary';
+import { Express } from 'express';
 import { CloudinaryResponse } from './cloudinary-response';
 import * as streamifier from 'streamifier';
 

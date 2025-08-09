@@ -2,6 +2,7 @@ import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards, UseInterc
 import { ArticleService } from './article.service';
 import { CreateArticleDto } from './dto/create-article.dto';
 import { FileInterceptor, FilesInterceptor } from '@nestjs/platform-express';
+import { Express } from 'express';
 import { ApiTags } from '@nestjs/swagger';
 import { Article } from './entities/article.entity';
 import { UpdateArticleDto } from './dto/update-article.dto';
