@@ -38,7 +38,7 @@ async function bootstrap() {
   app.use(cookieParser());
 
   app.enableCors({
-    origin: URL_FRONTEND, 
+    origin: URL_FRONTEND,
     credentials: true,
   });
 
@@ -47,7 +47,7 @@ async function bootstrap() {
 
   useContainer(app.select(AppModule), { fallbackOnErrors: true });
 
-  const port = 4001;
+  const port = process.env.PORT || 4001;
   app.useStaticAssets(path.join(__dirname, '../uploads'));
   await app.listen(port);
 
